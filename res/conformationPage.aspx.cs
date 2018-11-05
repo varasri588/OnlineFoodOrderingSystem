@@ -11,7 +11,9 @@ namespace res
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Label1.Text = Session["ordername"] as string;
+            TableCell cell1 = new TableCell();
+            cell1.Text = Session["order1"] as string;
+
         }
     }
 }

@@ -18,5 +18,15 @@ namespace res
         {
             Response.Redirect("orderFood.aspx");
         }
+
+        protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void lnkbtnPO_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -11,7 +11,7 @@ namespace res
 {
     public partial class register : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-63VD68H;Initial Catalog=se_project;Integrated Security=True");
+        SqlConnection con = new SqlConnection("Data Source=LAPTOP-PAYAL;Initial Catalog=se_project;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
 
